@@ -5,7 +5,7 @@ A news aggregator that scrapes RSS feeds, figures out which articles are about t
 ## Live URLs
 
 - **Frontend:** https://newspulseclusters.vercel.app
-- **Backend API:** https://newspulse-api.onrender.com (you can hit `/health`, `/clusters`, or `/timeline` directly)
+- **Backend API:** https://newspulse-api-aq5e.onrender.com (you can hit `/health`, `/clusters`, or `/timeline` directly)
 
 ## News sources
 
