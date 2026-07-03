@@ -11,7 +11,3 @@ services:
         value: 4000
       - key: CORS_ORIGIN
         value: https://newspulseclusters.vercel.app
-    disk:
-      name: newspulse-data
-      mountPath: /app/data
-      sizeGB: 1
