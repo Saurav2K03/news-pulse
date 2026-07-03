@@ -1,0 +1,17 @@
+# Render blueprint — backend API + Python pipeline in one Docker service.
+services:
+  - type: web
+    name: newspulse-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 4000
+      - key: CORS_ORIGIN
+        value: https://newspulseclusters.vercel.app
+    disk:
+      name: newspulse-data
+      mountPath: /app/data
+      sizeGB: 1

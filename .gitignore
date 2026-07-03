@@ -1,0 +1,20 @@
+# Python
+scraper/.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+frontend/.next/
+frontend/out/
+
+# Local data & env
+data/
+*.db
+.env
+.env.local
+
+# IDE / OS
+.idea/
+.DS_Store
+.background_output_*.txt
